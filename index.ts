@@ -1,6 +1,7 @@
 import Elysia from "elysia";
 import postcss from "postcss";
-import tw, { Config } from "tailwindcss";
+import tw from "tailwindcss";
+import type { Config } from "tailwindcss";
 
 type Options = {
 	minify?: boolean;
